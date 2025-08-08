@@ -5,12 +5,5 @@ spring:
     url: jdbc:mysql://localhost:3306/store?createDatabaseIfNotExist=true
     username: root
     password: root
-stripe:
-  apiUrl: https://api.stripe.com
-  enabled: true
-  timeout: 1000
-  supported-currencies: USD,EUR,GBP
-payment-gateway: paypal
-mail:
-  host: "smpt://server.com"
-  port: 5167
+  jpa:
+    show-sql: true
